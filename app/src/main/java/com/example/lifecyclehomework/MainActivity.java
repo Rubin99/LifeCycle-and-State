@@ -1,3 +1,4 @@
+
 package com.example.lifecyclehomework;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void countUp(View view) {
         mCount++;
+
         if (mShowCount != null){
             mShowCount.setText(Integer.toString(mCount));
         }
